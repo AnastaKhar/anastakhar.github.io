@@ -5,6 +5,11 @@ p:nth-child(3) {
 	padding-top: 0px;
 	padding-bottom: 50px;
 }
+
+li {
+	list-style-type: none;
+}
+
 body {background-color: #ffcc00;}
 img {
     margin-left: auto;
@@ -21,21 +26,33 @@ a:hover {
 	font-size: 18px;
 	color: white;
 }
-.qa {
-	list-style-type: none;
+
+.headers {
+	margin:3%;
+	text-align: center;
+	top: 20px;
 	font-family: Avenir Next;
-	font-size: 14px;
-	padding-top: 100px;
+	font-size: 50px;
 }
 
-.about {
-	list-style-type: none;
-	font-family:Avenir Next;
-	font-size: 14px;
+.description {
+	font-family: Avenir Next;
+	margin-left: 0%;
+	margin-top: 5%;
+	text-align: center;
 }
 
-.contact {
-	list-style-type: none;
-	font-family:Avenir Next;
-	font-size: 14px;
-} 
+.menu {
+	position: fixed;
+	top: 100px;
+	font-family: Avenir Next;
+	
+}
+
+.logo {
+	position: fixed;
+	margin: 1%;
+	top: 0px;
+	left:0px;
+	align-content: left;
+}
