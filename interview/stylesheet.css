@@ -1,0 +1,41 @@
+p:nth-child(3) {
+	font-family: Avenir Next, Helvetica;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+body {background-color: #ffcc00;}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 10px;
+}
+a {
+	text-decoration: none;
+	color: black;
+	
+}
+a:hover {
+	font-size: 18px;
+	color: white;
+}
+.qa {
+	list-style-type: none;
+	font-family: Avenir Next;
+	font-size: 14px;
+	padding-top: 100px;
+}
+
+.about {
+	list-style-type: none;
+	font-family:Avenir Next;
+	font-size: 14px;
+}
+
+.contact {
+	list-style-type: none;
+	font-family:Avenir Next;
+	font-size: 14px;
+} 

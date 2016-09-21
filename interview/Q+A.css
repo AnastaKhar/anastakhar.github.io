@@ -1,0 +1,124 @@
+body {background-color: #ffcc00;}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#logo {
+	position: fixed; top: 10px; left: 10px;
+}
+
+#qa {
+	list-style-type: none;
+	font-family: Avenir Next, Helvetica;
+	font-size: 14px;
+	padding-top: 100px;
+	color: black;
+	text-decoration: underline
+}
+
+#about {
+	list-style-type: none;
+	font-family: Avenir Next, Helvetica;
+	font-size: 14px;
+	color: red;
+}
+
+#contact {
+	list-style-type: none;
+	font-family:Avenir Next, Helvetica;
+	font-size: 14px;
+	color: black;
+}
+a:hover {
+	font-size: 18px;
+	color:white;
+}
+
+#qaheader {
+	font-family: Avenir Next, Helvetica;
+	font-size: 50px;
+	margin-left: 550px;
+	padding-top: 70px;
+
+}
+
+
+p {
+	font-family: Avenir Next, Helvetica;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 5px;
+	
+}
+p a {
+	color: white;
+}
+p a:hover {
+	font-weight: bold;
+}
+
+table {
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+
+
+#amanda {
+	font-family: Avenir Next, Helvetica;
+	margin-left:200px;
+}
+
+
+
+
+#images {
+	float:left;
+	margin-left: 350px;
+	position: relative;
+}
+
+
+#row2 {
+	float:left;
+	position: relative;
+	margin-left: 350px;
+	padding-top: 10px;
+}
+
+#row3 {
+	float:left;
+	position: relative;
+	margin-left: 350px;
+	padding-top: 10px;
+}
+
+#row4 {
+	float:left;
+	position: relative;
+	margin-left: 350px;
+	padding-top: 10px;
+}
+
+#row5 {
+	float:left;
+	position: relative;
+	margin-left: 350px;
+	padding-top: 10px;
+}
+
+#row6 {
+	float:left;
+	position: relative;
+	margin-left: 350px;
+	padding-top: 10px;
+}
+
+#row7 {
+	float:left;
+	position: relative;
+	margin-left: 350px;
+	padding-top: 10px;
+}
