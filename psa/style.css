@@ -1,0 +1,294 @@
+body {
+	margin: 0;
+	padding:0;
+	border: 0;
+	background-color: black;
+}
+
+
+ul {
+	/*text-align: center;*/
+	margin: 0px 0px 0px 20px;
+	border: 0;
+	font-family: Arial;
+	list-style-type: none;
+	font-size: 54px;
+}
+
+::selection {
+    
+    background: #ffe600;
+}
+
+#negone:checked + #first:after {
+  content: "#youarepretty";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffe600;
+}
+
+#negone {
+	display: none;
+}
+
+#first {
+	position: relative;
+}
+
+#negtwo:checked + #second:after {
+  content: "#youworthit";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffe600;
+}
+
+#negtwo {
+	display: none;
+}
+
+#second {
+	position: relative;
+}
+
+
+#negthree:checked + #third:after {
+  content: "#welikeyou";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffe600;
+}
+
+#negthree {
+	display: none;
+}
+
+#third {
+	position: relative;
+}
+
+
+#negfour:checked + #fourth:after {
+  content: "#youareunique";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffe600;
+}
+
+#negfour {
+	display: none;
+}
+
+#fourth {
+	position: relative;
+}
+
+
+#negfive:checked + #fifth:after {
+  content: "#iloveyou";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffe600;
+}
+
+#negfive {
+	display: none;
+}
+
+#fifth {
+	position: relative;
+}
+
+#negsix:checked + #sixth:after {
+  content: "#yourock";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffe600;
+}
+
+#negsix {
+	display: none;
+}
+
+#sixth {
+	position: relative;
+}
+
+#negseven:checked + #seventh:after {
+  content: "#youmakemehappy";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffe600;
+}
+
+#negseven {
+	display: none;
+}
+
+#seventh {
+	position: relative;
+}
+
+#negeight:checked + #eighth:after {
+  content: "#youareawinner";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffe600;
+}
+
+#negeight {
+	display: none;
+}
+
+#eighth {
+	position: relative;
+}
+
+#negnine:checked + #nineth:after {
+  content: "#youareahero";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffe600;
+}
+
+#negnine {
+	display: none;
+}
+
+#nineth {
+	position: relative;
+}
+
+#negten:checked + #tenth:after {
+  content: "#live";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffe600;
+}
+
+#negten {
+	display: none;
+}
+
+#tenth {
+	position: relative;
+}
+
+.dielink {
+	text-decoration: none;
+	color: white;
+}
+
+
+h1 {
+	color: white;
+	font-family: arial;
+	font-size: 90px;
+}
+
+.message {
+
+    position:fixed;
+    display:block;
+    height:360px;
+    width:100%;
+    /*left:20%;*/
+    top:20%;
+    /*margin-top:0px;*/
+    /*margin-left:0px;*/
+    background-color: white;
+    text-align: center;
+
+}
+
+p {
+	font-family: Arial;
+	font-size: 60px;
+}
+
+.hashtag {
+	margin: 0px;
+	padding:0px;
+	border: 0px;
+	font-size: 155px;
+	font-family: Arial;
+	color: black;
+}
+
+.hashtag:hover {
+	background-color: #ffe600;
+}
+
+
+
+div {
+	margin: 0;
+	padding:0;
+	border: 0;
+	font-size: 155px;
+	font-family: Arial;
+	color: black;
+}
+
+.facebook {
+	text-decoration: none;
+	color: black;
+}
+
+.twitter {
+	text-decoration: none;
+	color: black;
+}
+
+.instagram {
+	text-decoration: none;
+	color: black;
+}
+
+a.facebook:hover {
+	color: #3b5998;
+}
+
+a.twitter:hover {
+	color: #00aced;
+}
+
+
+a.instagram:hover {
+	color: #8a3ab9;
+}
+
+
+
+
+
+

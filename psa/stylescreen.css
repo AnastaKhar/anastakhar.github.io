@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	padding:0;
+	border: 0;
+	
+}
+
+::selection {
+    
+    background: #ffe600;
+}
+
+h1 {
+	color: white;
+	font-family: arial;
+	font-size: 90px;
+}
+
+.message {
+
+    position:fixed;
+    display:block;
+    height:auto;
+    width:100%;
+    /*left:20%;*/
+    top:20%;
+    /*margin-top:0px;*/
+    /*margin-left:0px;*/
+    background-color:black;
+    text-align: center;
+
+}
+
+p {
+	font-family: Arial;
+	font-size: 60px;
+}
+
+.hashtag {
+	margin: 0px;
+	padding:0px;
+	border: 0px;
+	font-size: 155px;
+	font-family: Arial;
+}
+
+div {
+	margin: 0;
+	padding:0;
+	border: 0;
+	font-size: 155px;
+	font-family: Arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
