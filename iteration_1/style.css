@@ -1,13 +1,71 @@
 body {
-	background-color: #00d1c6;
-	margin: 0;
+  background-color:#00d1c6;
+  margin:0;
+  font-family: 'Roboto Mono', monospace;
+  background: blue;
+}
+
+.things {
+
+	position: fixed;
+	margin: 80px 20px 10px 50px;
+	font-size: 11pt;
+	color: blue;
 }
 
 .element {
-	width: 100px;
+  width: 1000px;
+  height: 60px;
+  background-color: pink;
+  padding: 0px;
+  margin: 0px;
+  float:left;
+  border-radius: 200px;
+
+}
+
+.rotate {
+	width: 70px;
+	height: 70px;
+	background-color: white;
+	margin: 100px auto auto 700px;
+	border-radius: 20px;
+	padding: 0px;
+}
+
+.smallrect {
+	width: 30px;
 	height: 10px;
-	background-color: #ff3151;
-	/*border-radius: 50px;*/
-	margin: 2px;
+	
+}
+
+.square {
+	width: 70px;
+	height: 70px;
+	background-color: white;
+	margin: 200px auto auto 1000px;
+}
+
+
+.circle {
+	width:100px;
+	height: 100px;
+	background-color: yellow;
+	margin: 30px auto auto 1000px;
+	border-radius: 100px;
 	float: left;
 }
+
+.element.clear {
+	clear: both;
+}
+
+h2 {
+	
+	position: fixed;
+	margin: 50px 20px 10px 50px;
+	font-size: 20pt;
+	color: yellow;
+
+}
+

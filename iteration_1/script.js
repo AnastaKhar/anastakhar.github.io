@@ -1,21 +1,50 @@
-$(document).ready(function() {
+$(document).ready(function() { //always do this first. A special event 
+  //append new element 100 times
+  
+    
 
-	//append new element
-	for (i = 0; i < 100; i++){
-	$("body").append( "<div class='element' style='background-color: hsl(" + i * 3.6 + ", 100%, 50%);'></div>" );
-} //space after the "element" and before " added" to display it legible
+ 
+ 
+
+  for (i = 0; i < 10; i++){
+  $("body").append( "<div class='element' style='background-color: hsl(" + i * 100 + ", 100%, 50%);'></div>" );
+}
+
+
+  $('.element').mouseover(function(){
+    $(this).hide();
+  });
+
+  for (i = 0; i < 2; i++){
+  $("body").append( "<div class='circle' style='width: " + i * 60 +"px; height: "+ i * 30 +"px; background-color: white');'></div>" );
+}
+
+  $('.things').mouseover(function(){
+    $(this).css('color','yellow');
+  });
+
+
+for (i = 0; i < 5; i++){
+  $("body").append( "<div class='smallrect' style='background-color: hsl(" + i * 100 + ", 100%, 50%);'></div>" );
+}
+
+
+$(".btn1").click(function(){
+        $(".square").animate({height: "300px"});
+    });
+
+$(".btn2").click(function(){
+        $(".square").animate({height: "100px"});
+    });
 
 
 
 
+for (i = 0; i < 6; i++) { 
+  $("body").append( "<div class='rotate' style='transform: rotate(" + i*60 + "deg);'></div>" );
+  console.log("rotate " + i + " added");
+}
 
 
 
-	//mouse interation
-	$('.element').mouseover(function() {
-		$(this).css('background-color','black');
-	});
-	$('.element').mouseout(function() {
-		$(this).css('background-color','#ff3151');
-		});
 });
