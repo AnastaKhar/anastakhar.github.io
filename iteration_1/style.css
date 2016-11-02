@@ -1,0 +1,13 @@
+body {
+	background-color: #00d1c6;
+	margin: 0;
+}
+
+.element {
+	width: 100px;
+	height: 10px;
+	background-color: #ff3151;
+	/*border-radius: 50px;*/
+	margin: 2px;
+	float: left;
+}
