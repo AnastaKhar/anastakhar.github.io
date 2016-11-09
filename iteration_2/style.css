@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  margin:0;
+}
+.element {
+  width:70px;
+  height:70px;
+  background-color: pink;
+  margin:10px;
+  position: absolute;
+  border-radius: 100px; /*can add position attrinutes*/
+}
+
