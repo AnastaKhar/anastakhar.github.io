@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+  margin:0;
+}
+.element {
+  width:7px;
+  height:15px;
+  background-color: #2A394B;
+  margin:10px;
+  padding: 10px;
+  position: absolute;
+   /*can add position attrinutes*/
+}
+
+.poem {
+	font-size: 20px;
+	color: white;
+	font-family: 'Roboto Mono', monospace;;
+	position: fixed;
+	margin: 100px 0 0 20px;
+	width: 500px;
+	z-index: 1;
+
+}
+
+
+/*.moon {
+	position: fixed;
+	margin: 3px 0 0 15px;
+	z-index: 1;
+
+}
+

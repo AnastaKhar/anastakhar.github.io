@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  margin:0;
+}
+.element {
+	color: blue;
+	font-size: 25pt;
+	font-family: arial;
+  margin:10px;
+  position:absolute;
+  z-index: 1;
+}
+.random {
+  background-color: #000;
+}
+.word {
+	font-size: 80pt;
+	left: 10px;
+	top: 10px;
+	font-family: Helvetica;
+	position: fixed;
+	z-index: -1;
+}
