@@ -1,17 +1,43 @@
 $(document).ready(function() { //always do this first. A special event 
+
   //append new element 100 times
   for (j = 0; j < 100; j++){
         for (i = 0; i < 20; i++) { 
       $("body").append( "<div class='element' style='left:" + i*5 + "vw; top:" + j*50 + "px;'></div>" );
-      console.log("element " + j + ", " + i + " added");
+      //console.log("element " + j + ", " + i + " added");
     }
   }
-
 
   for (i = 0; i < 100; i++){
     drawRandomObject();
   }
- 
+
+  setInterval(function(){ 
+    lightup();//run this every x seconds
+  }, 500);
+
+function lightup(){
+  $('.element').each(function(){
+    $(this).css('background-color','#2A394B');
+    var l = Math.random();
+    if (l < .2) {
+      $(this).css('background-color','white');
+    }
+  })
+}
+
+
+
+// function seconds() {
+//   var d = new Date();
+//   var n = d.getSeconds();
+//   console.log("current second: " + n)
+// }
+
+
+
+
+
 
 function drawRandomObject(){
   //store random values between 0 to 100, to rx and ry//
@@ -28,10 +54,13 @@ function drawRandomObject(){
   else {
     color = "black";
   }
-  console.log("rx:" + rx + " ry; " + ry)
+  //console.log("rx:" + rx + " ry; " + ry)
 
   $("body").append( "<div class='element random' style = 'left:" + rx + "vw; top:" + ry + "vh; background-color:" + color +"; '></div" );
 }
+
+
+
 
   //mouse interaction
   
