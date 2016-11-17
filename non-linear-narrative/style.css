@@ -1,0 +1,12 @@
+.paragraph {
+	font-family: Courier;
+	font-size: 12pt;
+	width: 600px;
+	margin: 40px;
+	position: absolute;
+	color: black;
+}
+
+body {
+	background-color: #FFEBEB;
+}
