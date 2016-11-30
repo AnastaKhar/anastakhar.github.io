@@ -1,0 +1,58 @@
+body {
+	background-color: black;
+
+}
+
+p {
+	font-family: Helvetica;
+	color: white;
+width: 500px;
+position: fixed;
+font-size: 22;
+right:40;
+}
+
+
+.first {
+	
+    right: 0;
+    
+    
+}
+
+
+.second {
+	
+    right: 0;
+    
+    
+}
+
+
+.third {
+
+	 right: 0;
+    
+
+
+}
+
+
+.fourth {
+	
+	 right: 0;
+  
+  
+   
+
+}
+
+
+.fifth {
+	
+	 right: 0;
+ 
+   
+   
+
+}
