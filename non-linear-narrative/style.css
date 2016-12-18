@@ -1,6 +1,6 @@
 .schoolframe {
         font-size: 60px;
-        font-family: 'Gochi Hand', cursive;
+        font-family: Helvetica;
         position: absolute;
         color: black;
     top: 35%;
@@ -9,7 +9,7 @@
 
 .homeframe {
         font-size: 60px;
-        font-family: 'Gochi Hand', cursive;
+        font-family: Helvetica;
         position: absolute;
     top: 35%;
     left: 35%;
@@ -29,7 +29,7 @@
     margin-left: -50px;
     width: 100px;
     height: 100px;
-    font-family: 'Gochi Hand', cursive;
+    font-family: Helvetica;
     font-size: 20px;
     color: white;
     background-color: #f4df42;
@@ -42,6 +42,7 @@
     width: 100px;
     height: 200px;
     transition: 1s;
+   
 }
 
 #homelink {
@@ -61,7 +62,7 @@
     top: 3%;
     right: 1%;
     text-decoration: none;
-    font-family: 'Gochi Hand', cursive;
+    font-family: Helvetica;
     font-size: 20px;
     color: white;
     
@@ -90,14 +91,14 @@
 
 .par {
     z-index: 1;
-    font-family: 'Gochi Hand', cursive;
+    font-family: Helvetica;
     color: white;
     width: 1vw;
    margin: 5%;
 }
 
 #homelink {
-	font-family: 'Gochi Hand', cursive;
+	font-family: Helvetica;
     color: white;
 }
 
