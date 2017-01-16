@@ -8,7 +8,7 @@ $(document).ready(function() { //always do this first. A special event
     }
   }
 
-  for (i = 0; i < 100; i++){
+  for (i = 0; i < 30; i++){
     drawRandomObject();
   }
 
@@ -21,7 +21,7 @@ function lightup(){
     $(this).css('background-color','#2A394B');
     var l = Math.random();
     if (l < .2) {
-      $(this).css('background-color','white');
+      $(this).css('background-color','#FCD009');
     }
   })
 }
@@ -68,7 +68,11 @@ function drawRandomObject(){
     $(this).css('background-color','black');
   });
   $('.element').mouseout(function(){
-    $(this).css('background-color','yellow');
+    $(this).css('background-color','white');
   });
 
 });
+
+
+
+

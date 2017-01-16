@@ -3,7 +3,7 @@ body {
   margin:0;
 }
 .element {
-  width:7px;
+  width:9px;
   height:15px;
   background-color: #2A394B;
   margin:10px;
@@ -18,8 +18,10 @@ body {
 	font-family: 'Roboto Mono', monospace;;
 	position: fixed;
 	margin: 100px 0 0 20px;
-	width: 500px;
+	width: 450px;
 	z-index: 1;
+	background-color: black;
+	
 
 }
 
