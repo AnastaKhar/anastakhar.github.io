@@ -1,6 +1,6 @@
     var inputWord = ''
 
-    var randomWords = ['DESIGN!']
+    var randomWords = ['DESIGN', 'SWEATER', 'AARDVARK', 'SAUERKRAUT', 'LOL', '!', '?', '.', ',', 'TEA', 'COFFEE', 'PUPPY', 'TIME', 'DRESS', 'FAMILY', 'ART', 'HAPPY']
 
     var randomWord = randomWords[ Math.floor(Math.random() * randomWords.length) ]
 
