@@ -1,0 +1,73 @@
+body {
+	width: 9000px;
+	height: 9000px;
+	background-color: black;
+	/*background-image: url("bkgimg.jpg");*/
+	color: white;
+	margin: 0;
+/*	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;*/
+}
+
+@font-face {
+	font-family: diaregular;
+    src: url(diaregular.otf);
+}
+
+p {
+	position: fixed;
+	font-size: 2.5vw;
+	font-family: diaregular;
+}
+
+/*.rotate {
+
+-webkit-transform: rotate(-90deg);
+
+-moz-transform: rotate(-90deg);
+
+-ms-transform: rotate(-90deg);
+
+-o-transform: rotate(-90deg);
+
+float: left;
+}
+*/
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: black;
+}
+
+
+.askme {
+	bottom: 3px;
+}
+
+.name {
+	right: 3px;
+	bottom: 3px;
+}
+
+#toggle_tst {
+	z-index: 0;
+	position: fixed;
+	padding: 25px;
+    width: 40vw;
+    height: 31vw;
+    background: green;
+    margin:20px;
+    left: 10vw;
+    font-size: 1.5vw;
+	font-family: diaregular;
+}
+
+/*#draggable {
+	width: 50vw;
+    height: 45vw;
+}*/
