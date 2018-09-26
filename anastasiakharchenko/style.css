@@ -108,7 +108,7 @@ $container-max-widths: (
 
 
 .about-content {
-  position: absolute;
+/*  position: absolute;*/
   overflow: hidden;
  padding: 1.5em;
  color: white;
