@@ -1,10 +1,11 @@
 body {
-	width: 9000px;
-	height: 9000px;
+	width: 8908px;
+	height: 8684px;
 	background-color: black;
-	/*background-image: url("bkgimg.jpg");*/
+	background-image: url("image/magicif_10000_1.jpg");
 	color: white;
 	margin: 0;
+
 /*	margin-left: 10px;
 	margin-right: 10px;
 	padding-left: 10px;
@@ -16,11 +17,31 @@ body {
     src: url(diaregular.otf);
 }
 
+@font-face {
+	font-family: messinamodern;
+    src: url(messinamodernregular.otf);
+}
+
 p {
 	position: fixed;
 	font-size: 2.5vw;
 	font-family: diaregular;
 }
+/*
+.scroll {
+  text-align: center;
+  top: 7vh;
+  right: 3px;
+  font-size: 1vw;
+}*/
+
+/*.scroll {
+  text-align: center;
+  font-size: 1vw;
+  left: 50%;
+  margin-right: -50%;
+  top: 3px;
+}*/
 
 /*.rotate {
 
@@ -32,9 +53,9 @@ p {
 
 -o-transform: rotate(-90deg);
 
-float: left;
-}
-*/
+
+}*/
+
 a {
 	text-decoration: none;
 	color: white;
@@ -44,6 +65,9 @@ a:hover {
 	color: black;
 }
 
+.about {
+  top: 3px;
+}
 
 .askme {
 	bottom: 3px;
@@ -54,7 +78,53 @@ a:hover {
 	bottom: 3px;
 }
 
-#toggle_tst {
+#draggable {
+	z-index: 0;
+	position: fixed;
+	padding: 25px;
+    width: 35vw;
+    height: 39vw;
+    background: black;
+    margin:20px;
+    left: 10vw;
+    font-size: 1.5vw;
+	font-family: diaregular;
+	cursor: crosshair;
+	display: none;
+/*	animation: colorchange 10s; 
+      -webkit-animation: colorchange 10s;
+      animation-iteration-count: infinite;*/
+}
+
+.about{
+	cursor: help;
+}
+
+/* @keyframes colorchange
+    {
+    	0%	{background: #F9C82D;}
+      25%   {background: #22A8AA;}
+      50%  {background: #949ED6;}
+      75%  {background: #FC7130;}
+      100%  {background: #F9C82D;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+    	0%	{background: #F9C82D;}
+      25%   {background: #22A8AA;}
+      50%  {background: #949ED6;}
+      75%  {background: #FC7130;}
+      100%  {background: #F9C82D;}
+    }*/
+
+
+.cup {
+  top: 50%;
+  left: 20%;
+}
+
+/*#toggle_tst {
 	z-index: 0;
 	position: fixed;
 	padding: 25px;
@@ -66,6 +136,12 @@ a:hover {
     font-size: 1.5vw;
 	font-family: diaregular;
 }
+*/
+/*#draggable {
+	width: 40vw;
+    height: 31vw;
+    background: green;
+}*/
 
 /*#draggable {
 	width: 50vw;

@@ -1,11 +1,15 @@
  $(document).ready(function() {
      $(".show_hide").click(function () {
-     $("#toggle_tst").toggle()
+     $("#draggable").toggle()
   });
 
      $( function() {
-    $( ".draggable" ).draggable();
+    $( "#draggable" ).draggable();
   });
+
+  //    $( function() {
+  //   $( ".cup" ).draggable();
+  // });
 
        });
 
